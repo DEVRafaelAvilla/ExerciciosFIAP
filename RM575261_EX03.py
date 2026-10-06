@@ -2,10 +2,9 @@ divida = float(input('Insira o valor da dívida: '))
 
 if divida <= 0:
     print('Valor da dívida inválido. Por favor, insira um valor maior que zero.')
-
+    
 else:
     for i in [1, 3, 6, 9, 12]:
-
         if i == 1:
             juros = divida * 0
         elif i == 3:
